@@ -30,4 +30,4 @@ def get_brightness(img, size, x, y):
 img = get_img('img3.jpg')
 size = 10
 grayscale = 10
-save_img(get_pixel_art(img, size, grayscale), 'res.jpg')
+save_img(get_pixel_art(img, size, grayscale), 'res_firstnew.jpg')

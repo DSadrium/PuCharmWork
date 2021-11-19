@@ -96,7 +96,7 @@ def get_brightness(img, size, x, y):
     return np.average(img[x: x + size, y: y + size])
 
 
-#img = get_img(input("Write the picture's path - "))
-#size = int(input("Write pixel's size - "))
-#grayscale = int(input("Write grayscale's count - "))
-#save_img(get_pixel_art(img, size, grayscale), 'res.jpg')
+img = get_img(input("Write the picture's path - "))
+size = int(input("Write pixel's size - "))
+grayscale = int(input("Write grayscale's count - "))
+save_img(get_pixel_art(img, size, grayscale), 'res.jpg')
